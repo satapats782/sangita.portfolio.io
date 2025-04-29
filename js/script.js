@@ -13,16 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Form Submission Alert (Optional)
-    const contactForm = document.querySelector('#contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(event) {
-            event.preventDefault();
-            alert('Thank you for reaching out! I will get back to you as soon as possible.');
-        });
-    }
-
-    // Project Hover Effects (Optional for Interactive UI)
+    // Hover Effect for Project Cards
     const projects = document.querySelectorAll('.project');
     projects.forEach(project => {
         project.addEventListener('mouseenter', function() {
